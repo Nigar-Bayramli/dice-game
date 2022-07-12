@@ -1,0 +1,112 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    color: white;
+    background-color: rgb(100, 100, 100);
+    font-family: 'Indie Flower', cursive;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/25/10/44/cube-4362285_960_720.jpg); */
+}
+
+.header {
+    height: 30vh;
+width: 100%;
+
+    padding: 20px;
+   
+    text-align: center;
+}
+h1 {
+    font-size: 7vh;
+}
+h2 {
+    font-size: 6vh;
+}
+p {
+    font-size: 4vh;
+}
+.cards {
+
+   justify-content: space-between;
+    display: flex;
+}
+section {
+   
+    padding: 50px;
+}
+.board {
+    border-radius: 10px;
+    height: 50vh;
+    width: 110vh;
+}
+.board-pic {
+padding-bottom: 30px;
+  text-align: center;
+}
+
+button {
+    width: 20vh;
+    border: 0;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(246, 103, 103);
+    border-radius: 10px;
+    padding: 10px;
+}
+button:hover {
+    
+    background-color: rgb(102, 212, 65);
+}
+.card1, .card2 {
+   height: 45vh;
+/* opacity: 0.25; */
+    padding: 20px;
+    border-radius: 5px;
+    /* background-color: rgb(246, 103, 103); */
+}
+.head-buttons {
+    justify-content: space-between;
+    display: flex;
+}
+.buttons {
+  gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.dice-1, .dice-2 {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 10px;
+    height: 12vh;
+    width: 12vh;
+}
+.dices {
+   box-shadow: inset;
+ position: absolute;
+ left: 550px;
+ top: 290px;
+
+  
+    gap: 80px;
+    display: flex;
+}
+.dice-1, .dice-2 {
+    display: none;
+}
+.rules-window {
+    display: none;
+    position: absolute;
+    left: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(100, 100, 100);
+    width: 80vh;
+    height: 30vh;
+    background-color: aliceblue;
+}
+
+
+   
